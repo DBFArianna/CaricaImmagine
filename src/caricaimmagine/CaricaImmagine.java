@@ -28,7 +28,7 @@ public class CaricaImmagine extends JPanel {
 //        devo gestire l'eccezione altrimenti non va in esecuzione
 //        perchè non sa che file prendere
         try {
-            img = ImageIO.read(new File("Images/" + s + ".jpg"));
+            img = ImageIO.read(new File("Images/" + s ));
         } catch (IOException e) {
             System.out.println(e.getMessage());
 
